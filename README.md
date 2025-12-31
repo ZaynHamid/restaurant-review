@@ -49,7 +49,7 @@ A web application for submitting restaurant reviews, analyzing sentiment, and di
 
 * `GET /restaurants` — list restaurants with `id`, `name`, `avg_sentiment`, `total_reviews`
 
-`POST /post-review` — JSON body:
+* `POST /post-review` — JSON body:
 
- `{ "name": "string", "email": "string", "review": "string", "restaurant_id": int }`
+* * `{ "name": "string", "email": "string", "review": "string", "restaurant_id": int }`
 
